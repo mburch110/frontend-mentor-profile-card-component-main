@@ -69,10 +69,7 @@
   top: 0;
   left: 0;
   transform: translateY(-50%);
-  width: min(49.3vw, 930px);
-
   z-index: -1;
-  // width: 1059px;
 }
 
 .c-img-bottom {
@@ -80,20 +77,12 @@
   bottom: 0;
   right: 0;
   transform: translateY(50%);
-  width: min(49.3vw, 930px);
-
   z-index: -1;
-  // left: 0;
-  // width: 1059px;
 }
 
 .c-img-top,
 .c-img-bottom {
-  // @media (max-width: 340px) {
-  //   display: none;
-  // }
-
-  // width: min(50vw, 700px);
+  width: min(49.3vw, 930px);
 }
 
 .c-stat__head {
