@@ -10,3 +10,16 @@
 
   background: a.$cl-dark-cyan;
 }
+
+.l-stats {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: auto 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.l-stats__item {
+  text-align: center;
+}
