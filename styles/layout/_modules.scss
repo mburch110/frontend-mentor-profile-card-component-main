@@ -4,16 +4,9 @@
   font-family: a.$font-kumbh-sans;
   height: calc(100vh - 1rem);
   overflow: hidden;
-
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-
   display: grid;
   place-items: center;
-
   background: a.$cl-dark-cyan;
-
   position: relative;
 }
 

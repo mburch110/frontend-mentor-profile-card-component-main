@@ -37,7 +37,6 @@ html {
   width: min(100%, 350px);
   display: flex;
   flex-direction: column;
-  background: #19a2ae;
 }
 
 .c-main-top {
