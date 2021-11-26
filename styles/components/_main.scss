@@ -1,21 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-.l-body {
-  font-family: "Kumbh Sans", sans-serif;
-  min-height: calc(100vh - 1rem);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #19a2ae;
-}
+@use "../abstracts" as a;
 
 .c-main {
   position: relative;
@@ -23,7 +6,7 @@ html {
   width: min(100%, 350px);
   display: flex;
   flex-direction: column;
-  background: #19a2ae;
+  background: a.$cl-dark-cyan;
 }
 
 .c-main-top {
@@ -55,8 +38,9 @@ html {
 .c-img-bottom {
   position: absolute;
   z-index: -1;
+  //   top: -200%;
   left: 0;
   top: 277px;
   left: 0;
   width: 1059px;
-}/*# sourceMappingURL=main.css.map */
+}
