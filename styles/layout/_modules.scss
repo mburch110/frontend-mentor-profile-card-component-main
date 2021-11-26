@@ -2,13 +2,19 @@
 
 .l-body {
   font-family: a.$font-kumbh-sans;
-  min-height: calc(100vh - 1rem);
+  height: calc(100vh - 1rem);
+  overflow: hidden;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  display: grid;
+  place-items: center;
 
   background: a.$cl-dark-cyan;
+
+  position: relative;
 }
 
 .l-stats {
