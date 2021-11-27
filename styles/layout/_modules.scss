@@ -2,11 +2,15 @@
 
 .l-body {
   font-family: a.$font-kumbh-sans;
-  height: calc(100vh - 1rem);
+  min-height: calc(100vh - 1rem);
   overflow: hidden;
   display: grid;
   place-items: center;
-  background: a.$cl-dark-cyan;
+  background: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg"), a.$cl-dark-cyan;
+  background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw),
+    left calc(40vw + 25%) top calc(72vh - 10vw);
+  background-repeat: no-repeat;
   position: relative;
 }
 
